@@ -1,4 +1,4 @@
-script: bash ./deploy.sh
+script: chmod +x deploy.sh && bash ./deploy.sh
 env:
   global:
   - GH_REF: github.com/quickmessage/web.git

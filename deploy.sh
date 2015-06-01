@@ -6,6 +6,7 @@ rm -rf out || exit 0;
 mkdir out;
 
 # run our compile script, discussed above
+chmod +x compile.sh
 ./compile.sh
 
 # go to the out directory and create a *new* Git repo
