@@ -1,0 +1,126 @@
+body {
+	background-color:#F3F4F4;
+}
+h1 {
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	padding-left:80px;
+	height:52px;
+	padding-top:17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-box {
+	background-color:#FFF;
+	padding:12px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#DDDDDD;
+}
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+#loud {
+	color:#333;
+	font-family:Georgia, serif;
+	font-size:16px;
+	font-style:italic;
+	margin:.5em 0 1.5em 0;
+}
+.clear {
+	clear:both;
+}
+#theme {
+	background-image:url(../images/theme.png);
+	background-repeat:no-repeat;
+	padding-left:42px;
+	height:30px;
+}
+#portable {
+	background-image:url(../images/portable-usb.png);
+	background-repeat:no-repeat;
+	padding-left:42px;
+	height:30px;
+}
+
+#multi-platform {
+	background-image:url(../images/multi-platform.png);
+	background-repeat:no-repeat;
+	padding-left:0px;
+	padding-top:50px;
+	height:31px;
+}
+.center {
+	text-align:center;
+}
+
+#main-background{
+    background: transparent url(../images/background-main.jpg);
+}
+
+#big-banner {
+	position:relative;
+	left:-12px;
+	top:0px;
+	z-index:31;
+}
+
+#before-download{
+    background:transparent url(../images/accepted.png);
+    background-repeat:no-repeat;
+    height:48px;
+    padding-left:60px;
+    padding-top:17px;
+}
+
+#subscribe{
+    width:200px;
+}
+
+#support{
+    width:200px;
+}
+
+#menu{
+    font-size: 14.8px;
+}
+
+#menu ul{
+    background: url(../images/menu.png) ;
+    padding:0;
+    margin:0;
+    list-style: none;
+    height:60px;
+    padding-left:50px;
+}
+
+#menu ul li{
+    float:left;
+    text-decoration: none;
+    line-height: 50px;
+    text-align:center;
+}
+
+#menu ul li a{
+    height:60px;
+    display:inline-block;
+    color:#FFF;
+    padding:0 15px 0 15px;
+}
+
+#menu ul li a:hover{
+    background: url(../images/menu.png) 0 60px;
+}
+
+#menu ul li.current a{
+    background: url(../images/menu.png) 0 60px;
+}
+
+#adsense{
+  padding:24px;
+}
