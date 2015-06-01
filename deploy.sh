@@ -1,10 +1,6 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 
-# run our compile script, discussed above
-chmod +x compile.sh
-./compile.sh
-
 # go to the dist directory and create a *new* Git repo
 cd dist
 git init
